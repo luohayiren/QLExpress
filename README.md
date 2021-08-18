@@ -42,7 +42,8 @@ System.out.println(r);
 //in【类似sql】,like【sql语法】,&&,||,!,等操作符
 //支持for，break、continue、if then else 等标准的程序控制逻辑
 n=10;
-for(sum=0,i=0;i<n;i++){
+sum=0;
+for(i=0;i<n;i++){
 sum=sum+i;
 }
 return sum;
